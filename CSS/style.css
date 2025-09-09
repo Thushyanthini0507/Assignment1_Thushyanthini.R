@@ -1,24 +1,33 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #b6babd;
+    background-color: #d2d6db;
 
 }
 
 .navbar {
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.262);
-    margin: 4px 0px;
+    margin: 10px 0px;
+    font-size: 18px;
     background-color: aliceblue;
-    /* padding: 10px; */
+    height: 60px;
+}
+
+.logo {
+    background-color: yellow;
+    height: 60px;
+    width: 80px;
+    font-size: 22px;
+    padding: 18px;
 }
 
 a {
-    padding: 20px;
+    padding: 18px;
     text-decoration: none;
     color: rgba(60, 60, 60, 0.901);
 }
 
 .header {
-    margin: 5px auto;
+    margin: 0px auto;
     background-color: rgb(245, 247, 247);
     align-items: center;
     text-align: center;
@@ -29,51 +38,158 @@ a {
 .mnames {
     text-align: left;
     padding-bottom: 20px;
-    /* margin-bottom: 20px; */
 
 }
 
 .moviesname {
     margin: 18px auto;
-    font-size: 14px;
-    width:60%;
+    width: 60%;
 }
 
 input {
     margin: 2px;
     margin-bottom: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(49, 49, 49);
+    background-color: #d2d3d4d3;
 }
 
 .a-z {
     padding-top: 20px;
 }
 
-.gallary{
+.gallary {
     width: 65%;
-    background-color: aliceblue;
-    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.262);
 }
-.col{
+
+.col {
     text-align: center;
 }
 
-.card{
+.cardforgallary {
     margin: 10px;
     overflow: hidden;
     border: none;
+    background-color: transparent;
+
 }
-.card-img-top{
+
+.card-img-top {
     width: 100%;
     height: 400px;
 }
-.name{
+
+h6 {
+    margin-top: 30px;
+}
+
+.name {
     font-size: medium;
     font-weight: 600;
     margin-bottom: -5px;
 }
-span{
+
+.episodes {
     font-weight: 300;
     font-size: small;
     color: gray;
+}
+
+.ghead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+#search {
+    background-color: transparent;
+    margin-top: 30px;
+
+}
+
+.moviecard {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+
+.action {
+    border: 1px dotted black;
+    /* background-color: aqua; */
+}
+
+.card {
+    width: 95%;
+    background-color: rgba(249, 249, 255, 0.934);
+    margin: 3px auto;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.262);
+    border-radius: 3px;
+}
+
+.card-body {
+    background-color: aliceblue;
+}
+
+.tvshow-name {
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid rgba(145, 144, 144, 0.493);
+    border-radius: 1px;
+    color: rgba(78, 76, 76, 0.8);
+    padding: 10px;
+}
+
+.cardcol-md-3 {
+    padding: 10px;
+}
+
+.img-fluid {
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Subscribe {
+    padding: 5px;
+    width: 90%;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.details-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart {
+    color: rgb(138, 5, 5);
+}
+
+.form-group,
+.input-group-text,
+.form-control {
+    height: 30px;
+    text-align: center;
+}
+
+.form-group {
+    background-color: aqua;
+    height: 30px;
+}
+
+
+#cardforadd {
+    width: 60%;
+    background-color: rgba(249, 249, 255, 0.934);
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.262);
+    border-radius: 1px;
+    /* padding: 20px; */
 }
