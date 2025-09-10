@@ -56,9 +56,15 @@ input {
     background-color: #d2d3d4d3;
 }
 
-.a-z {
+li {
     padding-top: 20px;
+    text-decoration: none;
 }
+
+ul {
+    display: flex;
+}
+
 
 .gallary {
     width: 65%;
@@ -112,7 +118,6 @@ h6 {
 #search {
     background-color: transparent;
     margin-top: 30px;
-
 }
 
 .moviecard {
@@ -183,7 +188,6 @@ h6 {
     background-color: aqua;
     height: 30px;
 }
-
 
 #cardforadd {
     width: 70%;
