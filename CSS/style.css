@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #b6babd;
+    background-color: #e8ebed;
 
 }
 
@@ -53,11 +53,11 @@ input {
     border: none;
     border-radius: 5px;
     color: rgb(49, 49, 49);
-    background-color: #d2d3d4d3;
+    /* background-color: #d2d3d4d3; */
 }
 
 button {
-    border:none;
+    border: none;
     background-color: transparent;
     margin-top: 10px;
 }
@@ -66,7 +66,7 @@ button {
 .gallary {
     width: 65%;
     background-color: rgb(255, 255, 255);
-    margin: 50px auto;
+    margin: 20px auto;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.262);
 }
 
@@ -123,7 +123,9 @@ h6 {
 
 .action {
     border: 1px dotted black;
-    /* background-color: aqua; */
+    background-color: rgb(242, 244, 244);
+    color: black;
+    font-weight: 400;
 }
 
 .card {
@@ -196,12 +198,54 @@ h6 {
     /* padding: 20px; */
 }
 
-.card-log{
-background-color: aliceblue;
+.card-log {
+    background-color: aliceblue;
 }
-.input-group-text{
-background-color: rgb(255, 255, 255);
-border: none;
-margin-left: 5px;
-overflow: hidden;
+
+.input-group-text {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+
+.hrline {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    background-color: rgb(0, 0, 0);
+}
+
+.input-group {
+    border: 1px solid black;
+    background-color: #f0f8ff;
+    padding: 2px;
+}
+
+.form-control {
+    border: none;
+    text-align: left;
+}
+
+.bi-key-fill {
+    transform: rotate(-90deg);
+}
+
+.form-control {
+    background-color: #f0f8ff;
+}
+
+#signup-page {
+    border-radius: 1px;
+}
+
+.episode {
+    border-left: 5px solid #000;
+    padding-left: 8px;
+    margin-bottom: 5px;
+    /* height: 0px; */
+    margin-left: 10px;
 }
