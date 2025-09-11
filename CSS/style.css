@@ -56,13 +56,10 @@ input {
     background-color: #d2d3d4d3;
 }
 
-li {
-    padding-top: 20px;
-    text-decoration: none;
-}
-
-ul {
-    display: flex;
+button {
+    border:none;
+    background-color: transparent;
+    margin-top: 10px;
 }
 
 
@@ -82,7 +79,6 @@ ul {
     overflow: hidden;
     border: none;
     background-color: transparent;
-
 }
 
 .card-img-top {
@@ -185,8 +181,10 @@ h6 {
 }
 
 .form-group {
-    background-color: aqua;
-    height: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border: 1px solid rgba(122, 120, 120, 0.652);
+    border-radius: 1px;
 }
 
 #cardforadd {
@@ -196,4 +194,14 @@ h6 {
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.262);
     border-radius: 1px;
     /* padding: 20px; */
+}
+
+.card-log{
+background-color: aliceblue;
+}
+.input-group-text{
+background-color: rgb(255, 255, 255);
+border: none;
+margin-left: 5px;
+overflow: hidden;
 }
